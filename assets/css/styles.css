@@ -1,3 +1,138 @@
-.conteiner{
-    background-color: antiquewhite;
+* {
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: #E9EDEE;
+
+}
+
+header {
+    background-color: #222F3F;
+}
+
+nav {
+    background-color: #364759;
+    text-align: left;
+    font-size: 0.8em;
+}
+
+nav,
+#totop {
+    background-color: #364759;
+    font-size: 0.8em;
+
+}
+
+#totop {
+    padding: 0.8em;
+    padding-bottom: 1em;
+}
+
+nav ul {
+    text-align: left;
+    margin-left: 1em;
+}
+
+#navul a {
+    text-decoration: none;
+
+}
+
+#navul a,
+.insertion,
+#totop a {
+    color: #E9EDEE;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0.5rem 0.5em;
+}
+
+header,
+nav {
+    text-align: left;
+}
+
+header img {
+    height: 40px;
+    width: 125px;
+    margin: 0.5em;
+    margin-left: 1.5em;
+}
+
+.conteiner {
+    width: 95%;
+    text-align: center;
+}
+
+.insertion {
+    background-color: #F46501;
+    padding: 0.4em;
+}
+
+aside {
+    background-image: url(../img/bg-image.png);
+    color: #E9EDEE;
+    padding: 3rem;
+    background-repeat: repeat;
+    background-size: contain;
+}
+
+.img {
+    background-color: #FFFFFF;
+    margin-bottom: 1.5em;
+}
+
+.img,
+.bande figure,
+aside,
+.insertion,
+nav {
+    margin-bottom: 1.5em;
+}
+
+.img img {
+    width: 20%;
+    border-radius: 8px;
+    height: 20em;
+    margin: 1em;
+    box-shadow: 3px 3px 10px 2px #dbd9d9;
+    margin-bottom: 1.5em;
+    object-fit: cover;
+}
+
+.img p {
+    text-align: left;
+    margin-top: 1em;
+    margin-left: 1.5em;
+    padding-top: 1em;
+    font-size: 1.3em;
+}
+
+.img span,
+.figca {
+    color: #215E70;
+    font-size: 0.8em;
+    margin-left: 1em;
+    font-weight: bold;
+}
+
+.bande figure img {
+    width: 100%;
+    height: fit-content;
+}
+
+footer {
+    background-color: #222F3F;
+    padding: 3em;
+}
+
+footer img {
+    width: 12%;
 }
