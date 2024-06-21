@@ -145,7 +145,7 @@ while (k < numericArray.length) {
 */
 console.log(">>>>>>>>>>ESERCIO 10<<<<<<<<<");
 
-const charactersArray = ['g', 'n', 'u', 'z', 'd'];
+const charactersArray = ['g','k','l','m','h','o','a', 'n', 'u', 'z', 'd'];
 const newArray = [];
 
 for (let i = 0; i < charactersArray.length; i++) {
