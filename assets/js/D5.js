@@ -28,7 +28,6 @@ console.log(petss);
     Scrivi del codice per stampare nuovamente in console gli elementi dell'array "pets", questa volta in ordine invertito.
 */
 console.log(">>>>>>>>>>ESERCIO 3<<<<<<<<<");
-let j = 0;
 const petsRev = petss.reverse();
 
 console.log(petsRev);
