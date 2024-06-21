@@ -134,7 +134,7 @@ while (k < numericArray.length) {
   if (numericArray[k] === 32) {
     k = numericArray.length;
   }
-  k++
+  k++;
 }
 
 
