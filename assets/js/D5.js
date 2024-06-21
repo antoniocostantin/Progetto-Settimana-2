@@ -67,7 +67,8 @@ const cars = [
 console.log(">>>>>>>>>>ESERCIO 5<<<<<<<<<");
 
 for (let i = 0; i < cars.length; i++) {
-  cars[i].licensePlate = "BB111ZZ";
+  let numb1 = Math.floor(Math.random()*1000);
+  cars[i].licensePlate = "BB" + numb1 +"ZZ";
 }
 console.log(cars);
 
