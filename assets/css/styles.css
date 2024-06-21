@@ -15,6 +15,18 @@ header {
     background-color: #222F3F;
 }
 
+aside div{
+    padding-top: 1em;
+}
+
+aside div, #totop{
+    padding-bottom: 1em;
+}
+
+h1{
+    font-weight: bold;
+}
+
 nav {
     background-color: #364759;
     text-align: left;
@@ -30,7 +42,6 @@ nav,
 
 #totop {
     padding: 0.8em;
-    padding-bottom: 1em;
 }
 
 nav ul {
