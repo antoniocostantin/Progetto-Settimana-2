@@ -80,11 +80,14 @@ aside {
     color: #E9EDEE;
     padding: 1.5rem;
     background-repeat: repeat;
-    background-size: contain;
 }
 
 .img {
     background-color: #FFFFFF;
+}
+
+.img, aside{
+    background-size: contain;
 }
 
 .img div{
